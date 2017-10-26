@@ -65,7 +65,14 @@ class MainViewController : UIViewController, UIScrollViewDelegate{
     
     func tableSetting(num : Int){
         
-        students = allStudents.filter("order==\(num)").toArray(ofType: StudentModel.self)
+//        students = allStudents.filter("order==\(num)").toArray(ofType: StudentModel.self)
+//        students = allStudents.filter("order=\(num)").toArray(ofType: StudentModel.self)
+//        students = allStudents.filter("order=%@",num).toArray(ofType: StudentModel.self)
+//        students = allStudents.filter("order==%@",num).toArray(ofType: StudentModel.self)
+
+//        students = allStudents.filter("order=%@",num).sorted(byKeyPath: "name").toArray(ofType: StudentModel.self)
+
+
         /*
         
              query
